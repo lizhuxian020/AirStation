@@ -8,7 +8,11 @@
 
 #import "AppDelegate.h"
 
-#import "ViewController.h"
+#import "ASMainVC.h"
+
+#import "ASLeftMenuVC.h"
+
+#import "DrawerManager.h"
 
 @interface AppDelegate ()
 
@@ -19,8 +23,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    ICSDrawerController *drawerVC = [kDrawerManager setupLeftVC:[ASLeftMenuVC new] rightVC:[ASMainVC new]];
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
-    self.window.rootViewController = [ViewController new];
+    self.window.rootViewController = drawerVC;
     [self.window makeKeyAndVisible];
     return YES;
 }

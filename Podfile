@@ -6,15 +6,8 @@ target 'AirStation' do
   # use_frameworks!
 
   # Pods for AirStation
-
-  target 'AirStationTests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
-
-  target 'AirStationUITests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
-
+  pod 'AFNetworking', '~> 3.1.0'
+  pod 'JSONModel', '~> 1.7.0'
+  pod 'ios-ntp'
+  pod "RTRootNavigationController"
 end

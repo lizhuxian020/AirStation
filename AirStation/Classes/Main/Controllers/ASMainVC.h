@@ -1,15 +1,13 @@
 //
-//  ViewController.h
+//  ASMainVC.h
 //  AirStation
 //
-//  Created by mac on 11/9/2018.
+//  Created by mist on 2018/9/11.
 //  Copyright © 2018 mistak1992. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface ASMainVC : UITabBarController
 
 @end
-

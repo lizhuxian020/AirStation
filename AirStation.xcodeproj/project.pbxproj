@@ -8,50 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		04A5B782214769CF005C37F4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A5B781214769CF005C37F4 /* AppDelegate.m */; };
-		04A5B785214769CF005C37F4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A5B784214769CF005C37F4 /* ViewController.m */; };
 		04A5B78A214769D1005C37F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04A5B789214769D1005C37F4 /* Assets.xcassets */; };
 		04A5B78D214769D1005C37F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04A5B78B214769D1005C37F4 /* LaunchScreen.storyboard */; };
 		04A5B790214769D1005C37F4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A5B78F214769D1005C37F4 /* main.m */; };
-		04A5B79A214769D2005C37F4 /* AirStationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A5B799214769D2005C37F4 /* AirStationTests.m */; };
-		04A5B7A5214769D2005C37F4 /* AirStationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A5B7A4214769D2005C37F4 /* AirStationUITests.m */; };
 		420B506E5F7F4D45F3F1E901 /* libPods-AirStation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D1005469B183B8E8AE8B1168 /* libPods-AirStation.a */; };
-		6D860D8B7871A02B31C57325 /* libPods-AirStationUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 212365B54ABD069009C6C685 /* libPods-AirStationUITests.a */; };
-		9DE7DD5D71010EDB802B0CC9 /* libPods-AirStationTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 06590588C4CA6F893B1FFC6A /* libPods-AirStationTests.a */; };
+		CC4738A0214775A500578D45 /* DrawerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CC47389F214775A500578D45 /* DrawerManager.m */; };
+		CC4738A62147766200578D45 /* ICSDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC4738A32147766200578D45 /* ICSDrawerController.m */; };
+		CC4738A72147766200578D45 /* ICSDropShadowView.m in Sources */ = {isa = PBXBuildFile; fileRef = CC4738A52147766200578D45 /* ICSDropShadowView.m */; };
+		CC4738AD21479C2700578D45 /* ASMainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CC4738AC21479C2700578D45 /* ASMainVC.m */; };
+		CCE75BEC2147A11400363302 /* DateTools.m in Sources */ = {isa = PBXBuildFile; fileRef = CCE75BEB2147A11400363302 /* DateTools.m */; };
+		CCE75BEF2147A21900363302 /* ASHomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CCE75BEE2147A21900363302 /* ASHomeVC.m */; };
+		CCE75BF22147A22D00363302 /* ASMineVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CCE75BF12147A22D00363302 /* ASMineVC.m */; };
+		CCE75BF52147A24000363302 /* ASLeftMenuVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CCE75BF42147A24000363302 /* ASLeftMenuVC.m */; };
+		CCE75BF92147A2F400363302 /* nbl_log.m in Sources */ = {isa = PBXBuildFile; fileRef = CCE75BF82147A2F400363302 /* nbl_log.m */; };
+		CCE75BFC2147A3C700363302 /* ASNavMainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CCE75BFB2147A3C700363302 /* ASNavMainVC.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		04A5B796214769D2005C37F4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 04A5B775214769CF005C37F4 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 04A5B77C214769CF005C37F4;
-			remoteInfo = AirStation;
-		};
-		04A5B7A1214769D2005C37F4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 04A5B775214769CF005C37F4 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 04A5B77C214769CF005C37F4;
-			remoteInfo = AirStation;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		04A5B77D214769CF005C37F4 /* AirStation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirStation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04A5B780214769CF005C37F4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		04A5B781214769CF005C37F4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		04A5B783214769CF005C37F4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		04A5B784214769CF005C37F4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		04A5B789214769D1005C37F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04A5B78C214769D1005C37F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04A5B78E214769D1005C37F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04A5B78F214769D1005C37F4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		04A5B795214769D2005C37F4 /* AirStationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AirStationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		04A5B799214769D2005C37F4 /* AirStationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AirStationTests.m; sourceTree = "<group>"; };
-		04A5B79B214769D2005C37F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		04A5B7A0214769D2005C37F4 /* AirStationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AirStationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		04A5B7A4214769D2005C37F4 /* AirStationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AirStationUITests.m; sourceTree = "<group>"; };
-		04A5B7A6214769D2005C37F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		06590588C4CA6F893B1FFC6A /* libPods-AirStationTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AirStationTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		08C2626AC4E95116F176B68A /* Pods-AirStationTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirStationTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AirStationTests/Pods-AirStationTests.debug.xcconfig"; sourceTree = "<group>"; };
 		212365B54ABD069009C6C685 /* libPods-AirStationUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AirStationUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -59,6 +39,27 @@
 		55057B4F89C4AF460BF2CE66 /* Pods-AirStation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirStation.release.xcconfig"; path = "Pods/Target Support Files/Pods-AirStation/Pods-AirStation.release.xcconfig"; sourceTree = "<group>"; };
 		607D38B44CFB3189813A4662 /* Pods-AirStation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirStation.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AirStation/Pods-AirStation.debug.xcconfig"; sourceTree = "<group>"; };
 		B9E83F3B0B441259DDD51506 /* Pods-AirStationUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirStationUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AirStationUITests/Pods-AirStationUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CC47389E214775A500578D45 /* DrawerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawerManager.h; sourceTree = "<group>"; };
+		CC47389F214775A500578D45 /* DrawerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawerManager.m; sourceTree = "<group>"; };
+		CC4738A22147766200578D45 /* ICSDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICSDrawerController.h; sourceTree = "<group>"; };
+		CC4738A32147766200578D45 /* ICSDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICSDrawerController.m; sourceTree = "<group>"; };
+		CC4738A42147766200578D45 /* ICSDropShadowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICSDropShadowView.h; sourceTree = "<group>"; };
+		CC4738A52147766200578D45 /* ICSDropShadowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICSDropShadowView.m; sourceTree = "<group>"; };
+		CC4738AB21479C2700578D45 /* ASMainVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ASMainVC.h; sourceTree = "<group>"; };
+		CC4738AC21479C2700578D45 /* ASMainVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ASMainVC.m; sourceTree = "<group>"; };
+		CCE75BEA2147A11400363302 /* DateTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateTools.h; sourceTree = "<group>"; };
+		CCE75BEB2147A11400363302 /* DateTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateTools.m; sourceTree = "<group>"; };
+		CCE75BED2147A21900363302 /* ASHomeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ASHomeVC.h; sourceTree = "<group>"; };
+		CCE75BEE2147A21900363302 /* ASHomeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ASHomeVC.m; sourceTree = "<group>"; };
+		CCE75BF02147A22D00363302 /* ASMineVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ASMineVC.h; sourceTree = "<group>"; };
+		CCE75BF12147A22D00363302 /* ASMineVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ASMineVC.m; sourceTree = "<group>"; };
+		CCE75BF32147A24000363302 /* ASLeftMenuVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ASLeftMenuVC.h; sourceTree = "<group>"; };
+		CCE75BF42147A24000363302 /* ASLeftMenuVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ASLeftMenuVC.m; sourceTree = "<group>"; };
+		CCE75BF72147A2F400363302 /* nbl_log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nbl_log.h; sourceTree = "<group>"; };
+		CCE75BF82147A2F400363302 /* nbl_log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = nbl_log.m; sourceTree = "<group>"; };
+		CCE75BFA2147A3C700363302 /* ASNavMainVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASNavMainVC.h; sourceTree = "<group>"; };
+		CCE75BFB2147A3C700363302 /* ASNavMainVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASNavMainVC.m; sourceTree = "<group>"; };
+		CCE75BFD2147A6F400363302 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		D1005469B183B8E8AE8B1168 /* libPods-AirStation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AirStation.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD44BC380B5A6C009E93F6EA /* Pods-AirStationUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirStationUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AirStationUITests/Pods-AirStationUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -72,22 +73,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		04A5B792214769D2005C37F4 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9DE7DD5D71010EDB802B0CC9 /* libPods-AirStationTests.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		04A5B79D214769D2005C37F4 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6D860D8B7871A02B31C57325 /* libPods-AirStationUITests.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -95,8 +80,6 @@
 			isa = PBXGroup;
 			children = (
 				04A5B77F214769CF005C37F4 /* AirStation */,
-				04A5B798214769D2005C37F4 /* AirStationTests */,
-				04A5B7A3214769D2005C37F4 /* AirStationUITests */,
 				04A5B77E214769CF005C37F4 /* Products */,
 				6F5E1C4F6C18D1D1CCE8361D /* Pods */,
 				D05FDA9939FE86907084F6C1 /* Frameworks */,
@@ -107,8 +90,6 @@
 			isa = PBXGroup;
 			children = (
 				04A5B77D214769CF005C37F4 /* AirStation.app */,
-				04A5B795214769D2005C37F4 /* AirStationTests.xctest */,
-				04A5B7A0214769D2005C37F4 /* AirStationUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -116,34 +97,12 @@
 		04A5B77F214769CF005C37F4 /* AirStation */ = {
 			isa = PBXGroup;
 			children = (
-				04A5B780214769CF005C37F4 /* AppDelegate.h */,
-				04A5B781214769CF005C37F4 /* AppDelegate.m */,
-				04A5B783214769CF005C37F4 /* ViewController.h */,
-				04A5B784214769CF005C37F4 /* ViewController.m */,
-				04A5B789214769D1005C37F4 /* Assets.xcassets */,
-				04A5B78B214769D1005C37F4 /* LaunchScreen.storyboard */,
-				04A5B78E214769D1005C37F4 /* Info.plist */,
-				04A5B78F214769D1005C37F4 /* main.m */,
+				CC4738982147749C00578D45 /* Classes */,
+				CC473899214774A800578D45 /* ThirdLib */,
+				CC47389A214774B400578D45 /* Utils */,
+				CC47389C214774CD00578D45 /* Others */,
 			);
 			path = AirStation;
-			sourceTree = "<group>";
-		};
-		04A5B798214769D2005C37F4 /* AirStationTests */ = {
-			isa = PBXGroup;
-			children = (
-				04A5B799214769D2005C37F4 /* AirStationTests.m */,
-				04A5B79B214769D2005C37F4 /* Info.plist */,
-			);
-			path = AirStationTests;
-			sourceTree = "<group>";
-		};
-		04A5B7A3214769D2005C37F4 /* AirStationUITests */ = {
-			isa = PBXGroup;
-			children = (
-				04A5B7A4214769D2005C37F4 /* AirStationUITests.m */,
-				04A5B7A6214769D2005C37F4 /* Info.plist */,
-			);
-			path = AirStationUITests;
 			sourceTree = "<group>";
 		};
 		6F5E1C4F6C18D1D1CCE8361D /* Pods */ = {
@@ -157,6 +116,229 @@
 				FD44BC380B5A6C009E93F6EA /* Pods-AirStationUITests.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		CC4738942147743200578D45 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				CC4738B621479DDF00578D45 /* Controllers */,
+				CC4738B521479DD900578D45 /* Views */,
+				CC4738B421479DD400578D45 /* Models */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		CC4738952147744900578D45 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				CC4738B321479DCD00578D45 /* Controllers */,
+				CC4738B221479DC700578D45 /* Views */,
+				CC4738B121479DC100578D45 /* Models */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		CC4738962147745200578D45 /* LeftMenu */ = {
+			isa = PBXGroup;
+			children = (
+				CC4738B021479DA200578D45 /* Controllers */,
+				CC4738AF21479D9C00578D45 /* Views */,
+				CC4738AE21479D9400578D45 /* Models */,
+			);
+			path = LeftMenu;
+			sourceTree = "<group>";
+		};
+		CC4738972147746600578D45 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				CC4738AA21479C0800578D45 /* Models */,
+				CC4738A921479C0000578D45 /* Views */,
+				CC4738A821479BE700578D45 /* Controllers */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		CC4738982147749C00578D45 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CC4738972147746600578D45 /* Main */,
+				CC4738962147745200578D45 /* LeftMenu */,
+				CC4738952147744900578D45 /* Mine */,
+				CC4738942147743200578D45 /* Home */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		CC473899214774A800578D45 /* ThirdLib */ = {
+			isa = PBXGroup;
+			children = (
+				CC4738A12147766200578D45 /* ICSDrawerController */,
+			);
+			path = ThirdLib;
+			sourceTree = "<group>";
+		};
+		CC47389A214774B400578D45 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				CCE75BF62147A2F400363302 /* Log */,
+				CCE75BE92147A11400363302 /* DateTools */,
+				CC4738B721479E1000578D45 /* NetRequest */,
+				CC47389D214775A500578D45 /* DrawerManager */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		CC47389C214774CD00578D45 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				CCE75BFD2147A6F400363302 /* PrefixHeader.pch */,
+				04A5B780214769CF005C37F4 /* AppDelegate.h */,
+				04A5B781214769CF005C37F4 /* AppDelegate.m */,
+				04A5B789214769D1005C37F4 /* Assets.xcassets */,
+				04A5B78B214769D1005C37F4 /* LaunchScreen.storyboard */,
+				04A5B78E214769D1005C37F4 /* Info.plist */,
+				04A5B78F214769D1005C37F4 /* main.m */,
+			);
+			name = Others;
+			sourceTree = "<group>";
+		};
+		CC47389D214775A500578D45 /* DrawerManager */ = {
+			isa = PBXGroup;
+			children = (
+				CC47389E214775A500578D45 /* DrawerManager.h */,
+				CC47389F214775A500578D45 /* DrawerManager.m */,
+			);
+			path = DrawerManager;
+			sourceTree = "<group>";
+		};
+		CC4738A12147766200578D45 /* ICSDrawerController */ = {
+			isa = PBXGroup;
+			children = (
+				CC4738A22147766200578D45 /* ICSDrawerController.h */,
+				CC4738A32147766200578D45 /* ICSDrawerController.m */,
+				CC4738A42147766200578D45 /* ICSDropShadowView.h */,
+				CC4738A52147766200578D45 /* ICSDropShadowView.m */,
+			);
+			path = ICSDrawerController;
+			sourceTree = "<group>";
+		};
+		CC4738A821479BE700578D45 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CCE75BFA2147A3C700363302 /* ASNavMainVC.h */,
+				CCE75BFB2147A3C700363302 /* ASNavMainVC.m */,
+				CC4738AB21479C2700578D45 /* ASMainVC.h */,
+				CC4738AC21479C2700578D45 /* ASMainVC.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		CC4738A921479C0000578D45 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CC4738AA21479C0800578D45 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CC4738AE21479D9400578D45 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CC4738AF21479D9C00578D45 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CC4738B021479DA200578D45 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CCE75BF32147A24000363302 /* ASLeftMenuVC.h */,
+				CCE75BF42147A24000363302 /* ASLeftMenuVC.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		CC4738B121479DC100578D45 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CC4738B221479DC700578D45 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CC4738B321479DCD00578D45 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CCE75BF02147A22D00363302 /* ASMineVC.h */,
+				CCE75BF12147A22D00363302 /* ASMineVC.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		CC4738B421479DD400578D45 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CC4738B521479DD900578D45 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CC4738B621479DDF00578D45 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CCE75BED2147A21900363302 /* ASHomeVC.h */,
+				CCE75BEE2147A21900363302 /* ASHomeVC.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		CC4738B721479E1000578D45 /* NetRequest */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NetRequest;
+			sourceTree = "<group>";
+		};
+		CCE75BE92147A11400363302 /* DateTools */ = {
+			isa = PBXGroup;
+			children = (
+				CCE75BEA2147A11400363302 /* DateTools.h */,
+				CCE75BEB2147A11400363302 /* DateTools.m */,
+			);
+			path = DateTools;
+			sourceTree = "<group>";
+		};
+		CCE75BF62147A2F400363302 /* Log */ = {
+			isa = PBXGroup;
+			children = (
+				CCE75BF72147A2F400363302 /* nbl_log.h */,
+				CCE75BF82147A2F400363302 /* nbl_log.m */,
+			);
+			path = Log;
 			sourceTree = "<group>";
 		};
 		D05FDA9939FE86907084F6C1 /* Frameworks */ = {
@@ -190,63 +372,18 @@
 			productReference = 04A5B77D214769CF005C37F4 /* AirStation.app */;
 			productType = "com.apple.product-type.application";
 		};
-		04A5B794214769D2005C37F4 /* AirStationTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 04A5B7AC214769D2005C37F4 /* Build configuration list for PBXNativeTarget "AirStationTests" */;
-			buildPhases = (
-				2BA3DB6FB5C3BCCD7888E35B /* [CP] Check Pods Manifest.lock */,
-				04A5B791214769D2005C37F4 /* Sources */,
-				04A5B792214769D2005C37F4 /* Frameworks */,
-				04A5B793214769D2005C37F4 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				04A5B797214769D2005C37F4 /* PBXTargetDependency */,
-			);
-			name = AirStationTests;
-			productName = AirStationTests;
-			productReference = 04A5B795214769D2005C37F4 /* AirStationTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		04A5B79F214769D2005C37F4 /* AirStationUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 04A5B7AF214769D2005C37F4 /* Build configuration list for PBXNativeTarget "AirStationUITests" */;
-			buildPhases = (
-				DD71A934454F9F47FA472ECC /* [CP] Check Pods Manifest.lock */,
-				04A5B79C214769D2005C37F4 /* Sources */,
-				04A5B79D214769D2005C37F4 /* Frameworks */,
-				04A5B79E214769D2005C37F4 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				04A5B7A2214769D2005C37F4 /* PBXTargetDependency */,
-			);
-			name = AirStationUITests;
-			productName = AirStationUITests;
-			productReference = 04A5B7A0214769D2005C37F4 /* AirStationUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		04A5B775214769CF005C37F4 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = AS;
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = mistak1992;
 				TargetAttributes = {
 					04A5B77C214769CF005C37F4 = {
 						CreatedOnToolsVersion = 9.4.1;
-					};
-					04A5B794214769D2005C37F4 = {
-						CreatedOnToolsVersion = 9.4.1;
-						TestTargetID = 04A5B77C214769CF005C37F4;
-					};
-					04A5B79F214769D2005C37F4 = {
-						CreatedOnToolsVersion = 9.4.1;
-						TestTargetID = 04A5B77C214769CF005C37F4;
 					};
 				};
 			};
@@ -264,8 +401,6 @@
 			projectRoot = "";
 			targets = (
 				04A5B77C214769CF005C37F4 /* AirStation */,
-				04A5B794214769D2005C37F4 /* AirStationTests */,
-				04A5B79F214769D2005C37F4 /* AirStationUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -280,41 +415,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		04A5B793214769D2005C37F4 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		04A5B79E214769D2005C37F4 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2BA3DB6FB5C3BCCD7888E35B /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-AirStationTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		65E3894C77C777BC525DA74B /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -333,24 +436,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		DD71A934454F9F47FA472ECC /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-AirStationUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -358,42 +443,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04A5B785214769CF005C37F4 /* ViewController.m in Sources */,
+				CCE75BF92147A2F400363302 /* nbl_log.m in Sources */,
 				04A5B790214769D1005C37F4 /* main.m in Sources */,
 				04A5B782214769CF005C37F4 /* AppDelegate.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		04A5B791214769D2005C37F4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				04A5B79A214769D2005C37F4 /* AirStationTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		04A5B79C214769D2005C37F4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				04A5B7A5214769D2005C37F4 /* AirStationUITests.m in Sources */,
+				CC4738A72147766200578D45 /* ICSDropShadowView.m in Sources */,
+				CC4738A62147766200578D45 /* ICSDrawerController.m in Sources */,
+				CC4738AD21479C2700578D45 /* ASMainVC.m in Sources */,
+				CCE75BF22147A22D00363302 /* ASMineVC.m in Sources */,
+				CC4738A0214775A500578D45 /* DrawerManager.m in Sources */,
+				CCE75BEC2147A11400363302 /* DateTools.m in Sources */,
+				CCE75BF52147A24000363302 /* ASLeftMenuVC.m in Sources */,
+				CCE75BFC2147A3C700363302 /* ASNavMainVC.m in Sources */,
+				CCE75BEF2147A21900363302 /* ASHomeVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		04A5B797214769D2005C37F4 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 04A5B77C214769CF005C37F4 /* AirStation */;
-			targetProxy = 04A5B796214769D2005C37F4 /* PBXContainerItemProxy */;
-		};
-		04A5B7A2214769D2005C37F4 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 04A5B77C214769CF005C37F4 /* AirStation */;
-			targetProxy = 04A5B7A1214769D2005C37F4 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		04A5B78B214769D1005C37F4 /* LaunchScreen.storyboard */ = {
@@ -448,6 +513,8 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "${PROJECT_NAME}/PrefixHeader.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -504,6 +571,8 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "${PROJECT_NAME}/PrefixHeader.pch";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -551,80 +620,6 @@
 			};
 			name = Release;
 		};
-		04A5B7AD214769D2005C37F4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 08C2626AC4E95116F176B68A /* Pods-AirStationTests.debug.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = AirStationTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.mistak1992.AirStationTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AirStation.app/AirStation";
-			};
-			name = Debug;
-		};
-		04A5B7AE214769D2005C37F4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4F2A1F55B7C6D96D41B3E0D7 /* Pods-AirStationTests.release.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = AirStationTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.mistak1992.AirStationTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AirStation.app/AirStation";
-			};
-			name = Release;
-		};
-		04A5B7B0214769D2005C37F4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B9E83F3B0B441259DDD51506 /* Pods-AirStationUITests.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = AirStationUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.mistak1992.AirStationUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = AirStation;
-			};
-			name = Debug;
-		};
-		04A5B7B1214769D2005C37F4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FD44BC380B5A6C009E93F6EA /* Pods-AirStationUITests.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = AirStationUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.mistak1992.AirStationUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = AirStation;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -642,24 +637,6 @@
 			buildConfigurations = (
 				04A5B7AA214769D2005C37F4 /* Debug */,
 				04A5B7AB214769D2005C37F4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		04A5B7AC214769D2005C37F4 /* Build configuration list for PBXNativeTarget "AirStationTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				04A5B7AD214769D2005C37F4 /* Debug */,
-				04A5B7AE214769D2005C37F4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		04A5B7AF214769D2005C37F4 /* Build configuration list for PBXNativeTarget "AirStationUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				04A5B7B0214769D2005C37F4 /* Debug */,
-				04A5B7B1214769D2005C37F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
