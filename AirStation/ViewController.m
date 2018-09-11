@@ -14,9 +14,14 @@
 
 @implementation ViewController
 
+- (void)setupUI{
+    self.view.backgroundColor = [UIColor redColor];
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    [self setupUI];
 }
 
 
