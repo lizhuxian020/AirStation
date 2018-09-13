@@ -104,6 +104,7 @@
 #import <AFNetworking.h>
 #import "nbl_log.h"
 #import "AAGlobalMacro.h"
+#import <ZXUIKit/ZXUIKit.h>
 
 //**************************引入常用的头文件 End **************************//
 

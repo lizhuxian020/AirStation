@@ -27,6 +27,7 @@
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     self.window.rootViewController = drawerVC;
     [self.window makeKeyAndVisible];
+    [ZXUIKitManager shareManager];
     return YES;
 }
 

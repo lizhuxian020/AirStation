@@ -6,6 +6,7 @@ target 'AirStation' do
   # use_frameworks!
 
   # Pods for AirStation
+  pod 'ZXUIKit', path: './ZXUIKit/ZXUIKit'
   pod 'AFNetworking', '~> 3.1.0'
   pod 'JSONModel', '~> 1.7.0'
   pod 'ios-ntp'

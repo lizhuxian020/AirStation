@@ -7,8 +7,11 @@
 //
 
 #import "ASHomeVC.h"
+#import "AAChartKit.h"
 
 @interface ASHomeVC ()
+
+@property(nonatomic, strong) AAChartView *aaChartView;
 
 @end
 
@@ -18,6 +21,22 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.view.backgroundColor = [UIColor greenColor];
+    
+}
+
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    ZXRequest *request = [ZXRequest new]
+    .setSubURL(@"https://mistak1992.com/mqttServer/currentStatus")
+    .setParams(@{
+                 @"node": @"95D0A81CCC28B9C64EA8FE841E1904F4"
+                 })
+    .setFinishCallback(^(NSDictionary *res){
+        NSLog(@"%@", res);
+    })
+    .setErrorCallback(^(NSString *code, NSString *message){
+        NSLog(@"%@", message);
+    });
+    [request startRequest];
 }
 
 - (void)didReceiveMemoryWarning {
